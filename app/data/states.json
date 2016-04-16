@@ -1,0 +1,9 @@
+{ "states":[
+    
+                {"name":"New York","code":"NY","countryCode":"US"},
+                {"name":"Andhra Pradesh","code":"AP","countryCode":"IN"},
+                {"name":"Minnesota","code":"MN","countryCode":"US"},
+                {"name":"Hyderabad","code":"TG","countryCode":"IN"}
+                
+            ]
+ } 

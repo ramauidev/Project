@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="eKart">
+    <head>
+        <title>eKart</title>
+        <link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="content/css/bootstrap.min.css">
+        <script src="vendor/angular.min.js"></script>
+        <script src="vendor/jquery-2.2.0.js"></script>
+        <script src="vendor/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container" ng-controller="mainCtrl">
+           <div ng-include="'/app/navigation/navigation.tpl.html'"> </div>
+            <div ng-include="contentUrl"></div>
+        </div>
+        <script src="/app/app.js"></script>
+        
+        <script src="/app/common/common.js"></script>
+        <script src="/app/common/countriesFactory.js"></script>
+        <script src="/app/common/statesFactory.js"></script>
+        
+        <script src="/app/cart/cart.js"></script>
+        <script src="/app/cart/cartCtrl.js"></script>
+                
+        <script src="/app/login/login.js"></script>
+        <script src="/app/login/loginCtrl.js"></script>
+        
+        <script src="/app/navigation/navigation.js"></script>
+        <script src="/app/navigation/navCtrl.js"></script>
+        
+        <script src="/app/register/register.js"></script>
+        <script src="/app/register/registerCtrl.js"></script>
+         
+        <script src="/app/sales/sales.js"></script>
+        <script src="/app/sales/salesCtrl.js"></script>
+        
+        <script src="/app/main/mainCtrl.js"></script>
+        
+    </body>
+</html>
+
+
+ 
